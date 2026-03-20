@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw synthetic patient event data (HIPAA-safe, no PHI)
+    tables:
+      - name: patient_events
+        description: >
+          150,000 synthetic pharma patient support program events
+          covering 6 months. All identifiers are surrogate UUIDs.
